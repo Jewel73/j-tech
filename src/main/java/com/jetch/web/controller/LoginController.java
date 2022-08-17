@@ -9,8 +9,6 @@ public class LoginController {
 
     @GetMapping("/")
     public String Login(){
-        String value = "manyame";
-        int roll = 12;
         return "Login Success";
     }
 }
