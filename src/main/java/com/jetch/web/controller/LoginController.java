@@ -13,7 +13,7 @@ public class LoginController {
     }
 
     @GetMapping("/logout")
-    public String Login(){
+    public String logout(){
         return "Login Success";
     }
 }
