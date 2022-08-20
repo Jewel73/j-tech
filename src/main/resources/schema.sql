@@ -1,0 +1,4 @@
+-- create table roles(
+--     roleName varchar(30) primary key ,
+--     roleDescription varchar(100) not null
+-- )
