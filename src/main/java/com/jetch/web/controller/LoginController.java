@@ -7,7 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class LoginController {
 
-    @GetMapping("/")
+    @GetMapping("/login")
+    public String Login(){
+        return "Login Success";
+    }
+
+    @GetMapping("/logout")
     public String Login(){
         return "Login Success";
     }
